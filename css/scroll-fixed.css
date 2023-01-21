@@ -1,0 +1,23 @@
+*{margin:0; padding:0;}
+ul{list-style:none;}
+
+.scroll-menu{
+    text-align: center;
+    background-color: #14ada000;
+}
+/* 스크롤을 내리면 .scroll-menu에 .scroll-fixed가 생겨남 */
+/* scroll-fixed가 생길 때 꾸며주기 */
+.scroll-fixed{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff;
+    transition: all 1s;
+}
+.scroll-fixed a{
+    color: #745449;
+    transition: all 1s;
+    display: inline-block;
+    text-align: center;
+}

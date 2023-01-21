@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_effect {
+  width: 1320px;
+  margin: 50px auto;
+  position: sticky;
+  top: 40px;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.menu_ {
+  width: 920px;
+  height: 920px;
+  opacity: 1;
+  pointer-events: none;
+  background: url(../images/aboutus_bi_con3.jpg) no-repeat top center;
+  background-size: cover;
+  position: relative;
+  border-radius: 460px 460px 0 0;
+
+  box-sizing: border-box;
+}
+
+.sel_but1{
+  position: absolute;
+  bottom: 76px;
+  left: 248px;
+}
+
+.sel_but2{
+  position: absolute;
+  bottom: 357px;
+  right: 48px;
+}
+
+.sel_but3 {
+  position: absolute;
+  top: 33px;
+  left: 421px;
+}
+
+.sel_but4{
+  position: absolute;
+  bottom: 104px;
+  right: 104px;
+}
+
+.sel_but5{
+  position: absolute;
+  top: 282px;
+  left: 200px;
+}
+
+.sel_but6 {
+  position: absolute;
+  top: 395px;
+  left: 72px;
+}
+
+.sel_but7{
+  position: absolute;
+  top: 482px;
+  left: 520px;
+}
+
+.sel_but8 {
+  position: absolute;
+  bottom: 385px;
+  left: 172px;
+}
+
+.sel_but9 {
+  position: absolute;
+  top: 460px;
+  left: 314px;
+}
+
+.menu__item {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.menu__item-image_wrapper {
+  width: 180px;
+  height: 180px;
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0.3,0.3);
+  transform-origin: center center;
+  transition: all 0.4s;
+}
+
+
+
+
+.menu__item-image_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.menu__item-innertext::selection .hover{
+  position: fixed;
+}
+
+.menu__item-image_inner .menu__item-image01,
+.menu__item-image_inner .menu__item-image02,
+.menu__item-image_inner .menu__item-image03,
+.menu__item-image_inner .menu__item-image04,
+.menu__item-image_inner .menu__item-image05,
+.menu__item-image_inner .menu__item-image06,
+.menu__item-image_inner .menu__item-image07,
+.menu__item-image_inner .menu__item-image08,
+.menu__item-image_inner .menu__item-image09 {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.menu__item-image01 {
+  background-color: #202a2d;
+}
+
+.menu__item-image02 {
+  background-color: #4c3831;
+}
+
+.menu__item-image03 {
+  background-color: #6494a8;
+}
+
+.menu__item-image04 {
+  background-color: #745449;
+}
+
+.menu__item-image05 {
+  background-color: #bbd5dd;
+}
+
+.menu__item-image06 {
+  background-color: #ddcdc0;
+}
+
+.menu__item-image07 {
+  background-color: #efbc67;
+}
+
+.menu__item-image08 {
+  background-color: #f5ccbe;
+}
+
+.menu__item-image09 {
+  background-color: #ffdaa4;
+}
+
+
+
+.hover span {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: 'pretendard';
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.menu__item-text {
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 350ms ease;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* .menu__item-text img{
+  display: inline-block;
+} */
+.menu__item-text:hover .menu__item-innertext {
+  letter-spacing: 10px;
+}
+
+.menu__item-innertext {
+  display: inline-block;
+  transition: letter-spacing 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.menu:hover .menu__item-text {
+  opacity: 0.25;
+}
+
+.menu:hover .menu__item-text:hover {
+  opacity: 0.85;
+}
+
+.menu__item:hover .menu__item-text {
+  z-index: 10;
+  mix-blend-mode: soft-light;
+}
+
+.menu__item:hover .menu__item-image_wrapper {
+  z-index: 2;
+}

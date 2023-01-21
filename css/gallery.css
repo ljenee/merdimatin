@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 슬라이드배너 꾸미기 */
+#gallery {
+	width: 1320px;
+	height: 550px;
+	margin: 0px auto;
+	padding: 30px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery_inner {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+#gallery .swiper-slide img {
+	display: inline-block;
+	width: 350px;
+	height: 402px;
+	transition: all 1s;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+#gallery .swiper-slide:hover img {
+	transform: scale(1.05, 1.05) translate(0,-15px);
+}
+
+#gallery .swiper-slide h3 {
+	position: relative;
+	font-family: 'pretendard';
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 900;
+	color: #745449;
+	z-index: 50;
+	transition: all 0.4s ease;
+	text-align: center;
+	padding-top: 143px;
+}
+
+#gallery .swiper-slide p {
+	position: relative;
+	font-size: 18px;
+	color: #745449;
+	font-weight: 200;
+	z-index: 50;
+	transition: all 0.4s ease;
+	color: rgba(116, 83, 73, 1);
+	text-align: center;
+}
+
+.swiper-slide .text_box {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 350px;
+	height: 412px;
+	/* background: rgba(255, 255, 255, 0.438); */
+	border-radius: 50px;
+	opacity: 0;
+	/* transform: translate(0, 100px); */
+	transform: scale(0.93, 0.93);
+	transition: all 0.4s ease;
+	text-align: center;
+}
+
+.swiper-slide:hover .text_box {
+	opacity: 1;
+	/* transform: translate(0, 0); */
+	transform: scale(1, 1);
+}
+
+.swiper-slide>.text_box>a {
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	border: #745449 1px solid;
+	border-radius: 50px;
+	padding: 10px 50px;
+	width: 30%;
+	margin-top: 20px;
+}
+
+.swiper-slide .text_box .view:hover {
+	background-color: #745449;
+	color: #fff;
+}
+
+.buy_but a {
+	margin-top: 10px;
+	display: inline-block;
+	padding: 10px 10px;
+	width: 23%;
+	border: 1px solid #745449;
+	border-radius: 50px;
+	text-align: center;
+
+}
+
+.buy_but_left {
+	position: absolute;
+	bottom: 90px;
+	left: 20%;
+	z-index: 100;
+}
+
+.buy_but_right {
+	position: absolute;
+	bottom: 90px;
+	right: 20%;
+	z-index: 100;
+
+}
+
+.buy_but a:hover {
+	background-color: #745449;
+	color: #fff;
+}
+
+/*이동버튼 영역*/
+#gallery .swiper-button-next:after,
+#gallery .swiper-button-prev:after {
+	display: none;
+}
+
+/* 소스에 들어있는 버튼 삭제 */
+#gallery .swiper-button-next,
+#gallery .swiper-button-prev {
+	width: 22px;
+	height: 40px;
+}
+
+/* 버튼 크기 */
+#gallery .swiper-button-prev {
+	left: 0px;
+	background: url(../images/prev.png);
+}
+
+/* 버튼 위치, 버튼 이미지 */
+#gallery .swiper-button-next {
+	right: 0px;
+	background: url(../images/next.png);
+}
+
+/* 버튼 위치, 버튼 이미지 */
+#gallery .swiper-button-prev:hover {
+	background: url(../images/prev_hover.png);
+}
+
+/* 버튼 호버 이미지 */
+#gallery .swiper-button-next:hover {
+	background: url(../images/next_hover.png);
+}
+
+/* 버튼 호버 이미지 */
+
+/*블릿버튼 영역*/
+#gallery .swiper-pagination-bullet {
+	background: pink;
+	width: 10px;
+	height: 10px;
+	opacity: 0.5;
+	position: relative;
+}
+
+/* 블릿버튼 크기, 색상, 투명도 */
+#gallery .swiper-pagination-bullet-active {
+	opacity: 1;
+}
+
+/* 블릿버튼 페이지 표시날 때 투명도 */
+#gallery .swiper-container-horizontal>.swiper-pagination-bullets {
+	bottom: 10px;
+}
+
+/* 블릿버튼 위치 */

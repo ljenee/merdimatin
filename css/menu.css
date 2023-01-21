@@ -1,0 +1,95 @@
+/*움직이는 메뉴버튼*/
+
+input[id="menuicon"]{
+	display:none;
+}
+
+/*메뉴 아이콘 버튼 크기, 위치*/
+input[id="menuicon"]+label{
+	display:block;
+	width:60px;
+	height:40px;
+	position:absolute;
+	right:30px;
+	top:30px;
+	z-index:2;
+	transition:all 0.5s;
+	cursor:pointer;
+}
+
+/*메뉴 버튼 클릭했을 때 X버튼 색상*/
+input[id="menuicon"]:checked+label span{
+	background:#fff;
+}
+
+/*메뉴 세줄 버튼*/
+input[id="menuicon"]+label span{
+	display:block;
+	position:absolute;
+	width:100%;
+	height:5px;
+	border-radius:30px;
+	background:#000;
+	transition:all 0.5s;
+}
+input[id="menuicon"]+label span:nth-child(1){
+	top:0;
+}
+input[id="menuicon"]+label span:nth-child(2){
+	top:50%;
+	transform:translateY(-50%);
+}
+input[id="menuicon"]+label span:nth-child(3){
+	bottom:0;
+}
+
+/*메뉴 버튼 클릭했을 때 세줄버튼에서 X버튼으로 바뀌는 모습*/
+input[id="menuicon"]:checked+label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+input[id="menuicon"]:checked+label span:nth-child(2) {opacity:0;}
+input[id="menuicon"]:checked+label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+
+
+/*메뉴 창*/
+
+input[id="menuicon"]:checked+label+div{
+	right:0;
+}
+
+/* 메뉴바 꾸미기 */
+/* .m_nav{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -60px;
+	transition: all 0.7s;
+}
+
+.m_nav2{
+	width: 100%;
+	position: fixed;
+	top: 138px;
+	left: 0;
+
+	transition: all 0.7s;
+} */
+.m_nav{
+	/* background: url(../images/event_background_pink.jpg) center center; */
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 0.7s;
+}
+
+/* 자바스크립트로 추가될 클래스 */
+.nav-up { 
+	top: -1580px; /* 높이만큼 주기 */
+	background: url(../images/header_background.png) no-repeat center bottom;
+	background-size: cover;
+}
+.nav-down{
+	background: url(../images/header_background.png) no-repeat center bottom;
+	background-size: cover;
+
+}
