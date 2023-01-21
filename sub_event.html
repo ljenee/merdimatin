@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>MERDI MATIN</title>
+
+  <!-- 프리텐다드 폰트css -->
+  <link rel="stylesheet" href="./font/web/static/pretendard-subset.css">
+  <link rel="stylesheet" href="./font/web/static/pretendard.css">
+  <!-- font-css -->
+
+  <!-- js css -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- 갤러리 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"><!--수정X-->
+  <link href="./css/gallery.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+  <link rel="stylesheet" href="./css/mouse_line.css">
+  <link href="./css/menu.css" rel="stylesheet" type="text/css"><!--css파일-->
+  <link rel="stylesheet" href="./css/hover_effet.css">
+
+  <!-- 기본 CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="drawing_line">
+    <svg class="drawing_line_svg">
+      <circle class="drawing_line_circle" cx="0" cy="0" r="8"></circle>
+      <polyline class="drawing_line_polyline" points=""></polyline>
+    </svg>
+  </div>
+
+  <div id="top">
+    <a href="#">
+      <p>MERDI MATIN OPEN ! SPRING SEASON COUPON & GIFT</p>
+    </a>
+    <span onclick="this.parentElement.style.display='none'" class="close">ⓧ</span>
+  </div>
+
+
+  <header class="top-bar m_nav aboutus_header" data-sticky>
+    <!-- <div class="header_top"> -->
+    <div class="header_inner">
+      <ul class="header_right">
+        <li><a href="#"><img src="./images/language_but_01.png" alt="언어선택"></a>
+          <div class="language">
+            <ul>
+              <li><a href="#">한국어</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">日本語</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#"><img src="./images/store_but_01.png" alt="매장위치"></a></li>
+        <li><a href="#"><img src="./images/cart_but_01.png" alt="장바구니"></a></li>
+        <li><a href="#"><img src="./images/search_but_01.png" alt="검색하기"></a>
+          <div class="search">
+            <ul>
+              <li><input type="search" size="10" placeholder="&nbsp;&nbsp;검색어를 입력하세요"><a href="#"><img src="./images/search_but_01.png" alt="검색버튼"></a></li>
+            </ul>
+          </div></li>
+        <li><a href="#"><img src="./images/person_but_01.png" alt="개인정보"></a>
+          <div class="user">
+            <ul>
+              <li><a href="#">로그인</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <a href="./index.html" class="logo"><img src="./images/logo_grain.png" alt="로고"></a>
+      <ul class="nav">
+        <li><a href="./index.html">MAINPAGE</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./index.html#contents0">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./index.html#best_item">BEST ITEM<b class="underbar_2"></b></a></li>
+              <li><a href="./index.html#contents4">GIFT SHOP<b class="underbar_3"></b></a></li>
+              <li><a href="./index.html#store">STORE<b class="underbar_4"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_aboutus.html">ABOUT US</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_aboutus.html">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_aboutus_bi.html">IDENTITY<b class="underbar_2"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_mmscent.html">MMSCENT</a></li>
+        <li><a href="./sub_product.html">PRODUCT</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_product.html#contents0">핸드크림<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_product.html#best_item">핸드워시<b class="underbar_2"></b></a></li>
+              <li><a href="./sub_product.html#contents3">향수<b class="underbar_3"></b></a></li>
+              <li><a href="./sub_product.html#contents4">인센스<b class="underbar_4"></b></a></li>
+              <li><a href="./sub_product.html#contents4">캔들<b class="underbar_5"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_event.html">EVENT</a></li>
+      </ul>
+      <!-- </div> -->
+    </div>
+  </header>
+
+  <ul class="box">
+    <li><a href="#" class="membership">
+        <img src="./images/event_img01.jpg" alt="이미지1">
+        <div class="box_background"></div>
+        <div class="box_text">
+          <p>2023.03.14 ~</p>
+          <h1>MEMBERSHIP BENEFIT</h1>
+          <p>헉슬리 공식 온라인 몰 멤버십 혜택</p>
+        </div>
+      </a></li>
+    <li><a href="#">
+        <img src="./images/event_img02.jpg" alt="이미지2">
+        <div class="box_background"></div>
+        <div class="box_text">
+          <p>2023.03.14 ~</p>
+          <h1>공식 온라인몰 구매혜택</h1>
+          <p>구매 금액별 사은품 증정</p>
+        </div>
+      </a></li>
+    <li><a href="#">
+      <div class="box_background"></div>
+        <img src="./images/event_img03.jpg" alt="이미지3">
+        <div class="box_text">
+          <p>2023.03.14 ~ 2023.04.05</p>
+          <h1>봄맞이 선물 기획전</h1>
+          <p>메르디마틴이 준비한 첫 번째 선물</p>
+        </div>
+      </a></li>
+  </ul>
+
+  <div id="membership">
+    <img src="./images/event_membership.png" alt="멤버쉽">
+  </div>
+    <!-- 이전으로버튼 -->
+    <a href="#" class="pre_but"><img src="./images/pre_but.png" alt="이전으로 버튼">이전으로</a>
+    <!-- 이전으로버튼 -->
+    <!-- 탑버튼 -->
+    <a href="#" class="top_but"><img src="./images/top_but.png" alt="탑 버튼">맨 위로</a>
+    <!-- 탑버튼 -->
+
+
+  <script src="./script/sticky.js"></script>
+  <script>
+    var sticky = new Sticky('.sticky');
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <!-- <script src="./script/gallery.js"></script>디자인에 맞게 수정 -->
+  <script src="script/mouse_line.js"></script>
+  <script src="./script/menu.js"></script>
+  <script src="./script/submenu.js"></script>
+
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+  <script src="./script/hover_effet.js"></script>
+</body>
+
+</html>

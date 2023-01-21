@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>MERDI MATIN</title>
+
+
+
+  <!-- 프리텐다드 폰트css -->
+  <link rel="stylesheet" href="./font/web/static/pretendard-subset.css">
+  <link rel="stylesheet" href="./font/web/static/pretendard.css">
+  <!-- font-css -->
+
+  <!-- js css -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- 갤러리 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+  <link href="./css/gallery.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+  <link rel="stylesheet" href="./css/mouse_line.css">
+  <link href="./css/menu.css" rel="stylesheet" type="text/css"><!--css파일-->
+
+  <!-- 기본 CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+
+  <div class="cart_text">
+    <div class="cart_text_inner" data-aos="flip-up">
+      <img src="./images/cart_01.png" alt="장바구니아이콘">
+      <p>장바구니에 담았습니다!</p>
+      <a href="#" onclick="return false;"><img src="./images/close_but.png" alt="닫기버튼"></a>
+    </div>
+  </div>
+
+  <!-- 탑,헤더 -->
+  <div id="drawing_line">
+    <svg class="drawing_line_svg">
+      <circle class="drawing_line_circle" cx="0" cy="0" r="8"></circle>
+      <polyline class="drawing_line_polyline" points=""></polyline>
+    </svg>
+  </div>
+
+  <div id="top">
+    <a href="#">
+      <p>MERDI MATIN OPEN ! SPRING SEASON COUPON & GIFT</p>
+    </a>
+    <span onclick="this.parentElement.style.display='none'" class="close">ⓧ</span>
+  </div>
+
+
+
+  <header class="top-bar detail_header">
+    <!-- <div class="header_top top-bar"> -->
+    <div class="header_inner">
+      <ul class="header_right">
+        <li><a href="#"><img src="./images/language_but_01.png" alt="언어선택"></a>
+          <div class="language">
+            <ul>
+              <li><a href="#">한국어</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">日本語</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#"><img src="./images/store_but_01.png" alt="매장위치"></a></li>
+        <li><a href="#"><img src="./images/cart_but_01.png" alt="장바구니"></a></li>
+        <li><a href="#"><img src="./images/search_but_01.png" alt="검색하기"></a>
+          <div class="search">
+            <ul>
+              <li><input type="search" size="10" placeholder="&nbsp;&nbsp;검색어를 입력하세요"><a href="#"><img src="./images/search_but_01.png" alt="검색버튼"></a></li>
+            </ul>
+          </div></li>
+        <li><a href="#"><img src="./images/person_but_01.png" alt="개인정보"></a>
+          <div class="user">
+            <ul>
+              <li><a href="#">로그인</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <a href="./index.html" class="logo"><img src="./images/logo_grain.png" alt="로고"></a>
+      <ul class="nav">
+        <li><a href="./index.html">MAINPAGE</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./index.html#contents0">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./index.html#best_item">BEST ITEM<b class="underbar_2"></b></a></li>
+              <li><a href="./index.html#contents4">GIFT SHOP<b class="underbar_3"></b></a></li>
+              <li><a href="./index.html#store">STORE<b class="underbar_4"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_aboutus.html">ABOUT US</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_aboutus.html">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_aboutus_bi.html">IDENTITY<b class="underbar_2"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_mmscent.html">MMSCENT</a></li>
+        <li><a href="./sub_product.html">PRODUCT</a>
+          <div class="sub">
+            <ul>
+              <li><a href="#handcream">핸드크림<b class="underbar_1"></b></a></li>
+              <li><a href="#handwash">핸드워시<b class="underbar_2"></b></a></li>
+              <li><a href="#perfume">향수<b class="underbar_3"></b></a></li>
+              <li><a href="#candle">인센스<b class="underbar_4"></b></a></li>
+              <li><a href="#candle">캔들<b class="underbar_5"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_event.html">EVENT</a></li>
+      </ul>
+      <!-- </div> -->
+    </div>
+  </header>
+  <!-- 탑,헤더 끝 -->
+
+
+  <div id="detail">
+    <div class="product_info">
+      <h2>아로마틱 퍼퓸 핸드솝 에어리던</h2>
+      <h3>Aromatic perfume handsoap<br>airy dawn</h3>
+      <p>매일 우리에게 안락함을 선사하는 손은<br>
+        보살핌을 받을 자격이 충분합니다.<br>
+        아로마 클렌저와 밤은 손에 수분과 영양을 공급하고<br>
+        부드럽게 가꿔줍니다.</p>
+      <ul class="ul_ml">
+        <li><a href="#">300ML</a></li>
+        <li><a href="#">150ML</a></li>
+      </ul>
+      <ul class="ul_won">
+        <li>￦38,000</li>
+        <li>￦20,000</li>
+      </ul>
+      <a href="#" class="cart_but">
+        <p>장바구니</p><img src="./images/cart_but_01_w.png" alt="장바구니아이콘">
+      </a>
+      <a href="#">
+        <img src="./images/heart_icon_01.png" alt="하트아이콘">
+        <img src="./images/heart_icon_01_w.png" alt="하트아이콘_흰">
+      </a>
+      <a href="#">바로구매하기</a>
+      <ul class="ul_memo">
+        <li><a href="#">사용시의 주의사항</a>
+          <div class="ul_memo_text ul_memo01">
+            <p>
+              화장품 사용 시 또는 사용 후 직사광선에<br>
+              의하여 사용부위가 붉은 반점, 부어오름<br>
+              또는 가려움증 등의 이상 증상이나<br>
+              부작용이 있는 경우 전문의 등과 상담할 것<br>
+              상처가 있는 부위 등에v는 사용을 자제할 것
+            </p>
+          </div>
+        </li>
+        <li><a href="#">보관 및 취급시 주의사항</a>
+          <div class="ul_memo_text ul_memo02">
+            <p>
+              어린이의 손이 닿지 않는 곳에 보관할 것<br>
+              직사광선을 피해서 보관할 것
+            </p>
+          </div>
+        </li>
+        <li><a href="#">제품 주요사항</a>
+          <div class="ul_memo_text ul_memo03">
+            <p>
+              모든 피부용
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="detail_banner">
+      <img src="./images/detail_handsoap_banner.jpg" alt="핸드솝 배너">
+    </div>
+    <div class="product_img">
+      <div class="product_img_inner">
+        <img src="./images/d_p_p_hs_airydawn.png" alt="핸드솝_에어리던">
+      </div>
+      <div class="product_img_inner">
+        <img src="./images/mmscent_img5-2.jpg" alt="에어리던_이미지">
+      </div>
+    </div>
+  </div>
+
+  <!-- 푸터 -->
+  <footer>
+
+    <div class="footer_inner_center">
+      <div class="footer_inner_left">
+        <p>
+          주식회사 메르디 마틴 코리아<br>
+
+          대표이사 임지은<br>
+
+          통신판매업신고 2022-부산동래-930405
+        </p>
+      </div>
+      <a href="./index.html" class="footer_logo"><img src="./images/footer_logo.png" alt="logo"></a>
+      <br>
+      <a href="#" class="sns_but"><img src="./images/sns_facebook.png" alt="페이스북"></a>
+      <a href="#" class="sns_but"><img src="./images/sns_youtube.png" alt="유튜브"></a>
+      <a href="#" class="sns_but"><img src="./images/sns_instar.png" alt="인스타그램"></a>
+      <br>
+      <ul>
+        <li><a href="#">MERDI MATIN</a>｜</li>
+
+        <li><a href="#">이용약관</a>｜</li>
+
+        <li><a href="#">개인정보 처리방침</a>｜</li>
+
+        <li><a href="#">제휴문의</a></li>
+      </ul>
+      <div class="footer_inner_right">
+        <p>
+          사업자등록번호 010-90-28659<br>
+
+          개인정보취급관리자 임지은 JENEE0093@KAKAO.com<br>
+
+          주소 47759 부산광역시 동래구<br>
+
+          시실로 167번길 54-8 (명장동)
+        </p>
+      </div>
+    </div>
+
+
+  </footer>
+  <!-- 푸터 끝 -->
+    <!-- 이전으로버튼 -->
+    <a href="#" onClick="history.back()" class="d_pre_but"><img src="./images/pre_but.png" alt="이전으로 버튼">이전으로</a>
+    <!-- 이전으로버튼 -->
+  <!-- 탑버튼 -->
+  <a href="#" class="top_but"><img src="./images/top_but.png" alt="탑 버튼">맨 위로</a>
+  <!-- 탑버튼 -->
+
+  <!-- js -->
+  <script src="./script/sticky.js"></script>
+  <script>
+    var sticky = new Sticky('.sticky');
+  </script>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <script src="./script/gallery.js"></script><!--디자인에 맞게 수정-->
+  <script src="./script/mouse_line.js"></script>
+  <script src="./script/menu.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="./script/submenu.js"></script>
+  <script src="./script/filter.js"></script>
+</body>
+
+</html>

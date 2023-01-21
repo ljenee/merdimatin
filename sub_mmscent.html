@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>MERDI MATIN</title>
+
+  <!-- 프리텐다드 폰트css -->
+  <link rel="stylesheet" href="./font/web/static/pretendard-subset.css">
+  <link rel="stylesheet" href="./font/web/static/pretendard.css">
+  <!-- font-css -->
+
+  <!-- js css -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- 갤러리 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"><!--수정X-->
+  <link href="./css/gallery.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+  <link rel="stylesheet" href="./css/mouse_line.css">
+  <link href="./css/menu.css" rel="stylesheet" type="text/css"><!--css파일-->
+  <link rel="stylesheet" href="./css/hover_effet.css">
+
+  <!-- 기본 CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="drawing_line">
+    <svg class="drawing_line_svg">
+      <circle class="drawing_line_circle" cx="0" cy="0" r="8"></circle>
+      <polyline class="drawing_line_polyline" points=""></polyline>
+    </svg>
+  </div>
+
+  <div id="top">
+    <a href="#">
+      <p>MERDI MATIN OPEN ! SPRING SEASON COUPON & GIFT</p>
+    </a>
+    <span onclick="this.parentElement.style.display='none'" class="close">ⓧ</span>
+  </div>
+
+
+  <header class="top-bar m_nav aboutus_header" data-sticky>
+    <!-- <div class="header_top"> -->
+    <div class="header_inner">
+      <ul class="header_right">
+        <li><a href="#"><img src="./images/language_but_01.png" alt="언어선택"></a>
+          <div class="language">
+            <ul>
+              <li><a href="#">한국어</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">日本語</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#"><img src="./images/store_but_01.png" alt="매장위치"></a></li>
+        <li><a href="#"><img src="./images/cart_but_01.png" alt="장바구니"></a></li>
+        <li><a href="#"><img src="./images/search_but_01.png" alt="검색하기"></a>
+          <div class="search">
+            <ul>
+              <li><input type="search" size="10" placeholder="&nbsp;&nbsp;검색어를 입력하세요"><a href="#"><img src="./images/search_but_01.png" alt="검색버튼"></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#"><img src="./images/person_but_01.png" alt="개인정보"></a>
+          <div class="user">
+            <ul>
+              <li><a href="#">로그인</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <a href="./index.html" class="logo"><img src="./images/logo_grain.png" alt="로고"></a>
+      <ul class="nav">
+        <li><a href="./index.html">MAINPAGE</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./index.html#contents0">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./index.html#best_item">BEST ITEM<b class="underbar_2"></b></a></li>
+              <li><a href="./index.html#contents4">GIFT SHOP<b class="underbar_3"></b></a></li>
+              <li><a href="./index.html#store">STORE<b class="underbar_4"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_aboutus.html">ABOUT US</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_aboutus.html">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_aboutus_bi.html">IDENTITY<b class="underbar_2"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_mmscent.html">MMSCENT</a></li>
+        <li><a href="./sub_product.html">PRODUCT</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_product.html#contents0">핸드크림<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_product.html#best_item">핸드워시<b class="underbar_2"></b></a></li>
+              <li><a href="./sub_product.html#contents3">향수<b class="underbar_3"></b></a></li>
+              <li><a href="./sub_product.html#contents4">인센스<b class="underbar_4"></b></a></li>
+              <li><a href="./sub_product.html#contents4">캔들<b class="underbar_5"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_event.html">EVENT</a></li>
+      </ul>
+      <!-- </div> -->
+    </div>
+  </header>
+
+
+  <div id="mmscent">
+    <div class="mmscent_inner">
+      <div class="mm_center" data-aos="fade-up" data-aos-duration="1000">
+        <div class="mmtext_inner">
+          <h1>FIND YOUR<br>SIGNATURE</h1>
+          <p>
+            맘에 쏙 드는 향기 찾기<br>
+            어려우셨나요?<br>
+            <br>
+            쉽고 간단한 취향 테스트로<br>
+            실패 없는 취향저격<br>
+            향기들을 만나보세요.
+          </p>
+          <a href="#">START</a>
+        </div>
+      </div>
+      <!-- <div class="mm_left" data-aos="fade-up" data-aos-duration="1000">
+        <div class="mmtext_inner">
+          <span>
+            <p>COLOR</p><br>
+          </span>
+          <p>
+            아침바다를 컨셉으로 이미지에서 컬러를 추출하여<br> 밝으면서도 고요한 느낌을 나타내었습니다.
+          </p>
+        </div>
+      </div>
+      <div class="mm_right" data-aos="fade-up" data-aos-duration="1000">
+        <div class="mmtext_inner">
+          <span>
+            <p>COLOR</p><br>
+          </span>
+          <p>
+            아침바다를 컨셉으로 이미지에서 컬러를 추출하여<br> 밝으면서도 고요한 느낌을 나타내었습니다.
+          </p>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s-s1">
+        <div class="s_text1">
+          <h1>따듯하고 아늑한 머스크향</h1>
+          <a href="#" class="back_but">&lt; </a>
+          <a href="#" class="a_but1">선택하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s2">
+        <div class="s_text2">
+          <h1>기분을 전환시키는 풀, 나무향기</h1>
+          <a href="#" class="back_but">&lt; </a>
+          <a href="#" class="a_but2">선택하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s3">
+        <div class="s_text3">
+          <h1>마음을 설레게하는 꽃향기</h1>
+          <a href="#" class="back_but">&lt;</a>
+          <a href="#" class="a_but3">선택하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s4">
+        <div class="s_text4">
+          <h1>깔끔하면서 상쾌한 만다린향</h1>
+          <a href="#" class="back_but">&lt;</a>
+          <a href="#" class="a_but4">선택하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s5">
+        <div class="s_text5">
+          <h1>부드럽고 포근한 파우더리향</h1>
+          <a href="#" class="back_but">&lt; </a>
+          <a href="#" class="a_but5">선택하기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Swipe a_but1 -->
+  <div class="swiper mySwiper1">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s-s1-1">
+        <div class="s_text1">
+          <h1>ORIGINAL MUSK</h1>
+          <p>포근하면서도 묵직한 오리지널 머스크향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but buy_but_musk">구매하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s1-2">
+        <div class="s_text2">
+          <h1>PEONY MUSK</h1>
+          <p>피오니향이 감도는 따듯한 머스크향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but buy_but_musk">구매하기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper a_but2 -->
+  <div class="swiper mySwiper2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s-s2-1">
+        <div class="s_text1">
+          <h1>green airy</h1>
+          <p>꽃집에온듯한 허브풀향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html#li_green" class="buy_but" id="buy_but_green">구매하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s2-2">
+        <div class="s_text2">
+          <h1>forest walk</h1>
+          <p>숲길의 풀내음</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html#li_green" class="buy_but" id="buy_but_green">구매하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s2-3">
+        <div class="s_text3">
+          <h1>incense wood</h1>
+          <p>묵직한 우디향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but" id="buy_but_woody">구매하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s2-4">
+        <div class="s_text4">
+          <h1>library</h1>
+          <p>마음을 진정시켜주는 편안한 우디향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but" id="buy_but_woody">구매하기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Swiper a_but3 -->
+  <div class="swiper mySwiper3">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s-s3-1">
+        <div class="s_text1">
+          <h1>tulip water</h1>
+          <p>이슬을머금은 튤립향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but">구매하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s3-2">
+        <div class="s_text2">
+          <h1>freesia</h1>
+          <p>달콤하지만 싱그러운 프리지아향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but">구매하기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  <!-- Swiper a_but4 -->
+  <div class="swiper mySwiper4">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s-s4-1">
+        <div class="s_text1">
+          <h1>green mandarin</h1>
+          <p>달콤 상큼한 청귤향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but">구매하기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  <!-- Swiper a_but5 -->
+  <div class="swiper mySwiper5">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s-s5-1">
+        <div class="s_text1">
+          <h1>cloud soap</h1>
+          <p>풍성항 비누거품향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but">구매하기</a>
+        </div>
+      </div>
+      <div class="swiper-slide s-s5-2">
+        <div class="s_text2">
+          <h1>airy dawn</h1>
+          <p>아침 새벽녘 맑은공기향</p>
+          <a href="#" class="back_but2">&lt;</a>
+          <a href="./sub_product.html" class="buy_but">구매하기</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper, .mySwiper1, .mySwiper2, .mySwiper3, .mySwiper4, .mySwiper5", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "2.2",
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 250,
+        modifier: 2,
+        slideShadows: false,
+      },
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+
+
+
+  <!-- js -->
+
+  <script src="./script/sticky.js"></script>
+  <script>
+    var sticky = new Sticky('.sticky');
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <!-- <script src="./script/gallery.js"></script>디자인에 맞게 수정 -->
+  <script src="script/mouse_line.js"></script>
+  <script src="./script/menu.js"></script>
+  <script src="./script/submenu.js"></script>
+
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+  <script src="./script/hover_effet.js"></script>
+</body>
+
+</html>

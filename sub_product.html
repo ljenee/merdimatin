@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>MERDI MATIN</title>
+
+
+
+  <!-- 프리텐다드 폰트css -->
+  <link rel="stylesheet" href="./font/web/static/pretendard-subset.css">
+  <link rel="stylesheet" href="./font/web/static/pretendard.css">
+  <!-- font-css -->
+
+  <!-- js css -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- 갤러리 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+  <link href="./css/gallery.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+  <link rel="stylesheet" href="./css/mouse_line.css">
+  <link href="./css/menu.css" rel="stylesheet" type="text/css"><!--css파일-->
+
+  <!-- 기본 CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <!-- 탑,헤더 -->
+  <div id="drawing_line">
+    <svg class="drawing_line_svg">
+      <circle class="drawing_line_circle" cx="0" cy="0" r="8"></circle>
+      <polyline class="drawing_line_polyline" points=""></polyline>
+    </svg>
+  </div>
+
+  <div id="top">
+    <a href="#">
+      <p>MERDI MATIN OPEN ! SPRING SEASON COUPON & GIFT</p>
+    </a>
+    <span onclick="this.parentElement.style.display='none'" class="close">ⓧ</span>
+  </div>
+
+
+
+  <header class="top-bar m_nav product_header">
+    <!-- <div class="header_top top-bar"> -->
+    <div class="header_inner">
+      <div class="header_inner">
+        <ul class="header_right">
+          <li><a href="#"><img src="./images/language_but_01.png" alt="언어선택"></a>
+            <div class="language">
+              <ul>
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">日本語</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#"><img src="./images/store_but_01.png" alt="매장위치"></a></li>
+          <li><a href="#"><img src="./images/cart_but_01.png" alt="장바구니"></a></li>
+          <li><a href="#"><img src="./images/search_but_01.png" alt="검색하기"></a>
+            <div class="search">
+              <ul>
+                <li><input type="search" size="10" placeholder="&nbsp;&nbsp;검색어를 입력하세요"><a href="#"><img src="./images/search_but_01.png" alt="검색버튼"></a></li>
+              </ul>
+            </div></li>
+          <li><a href="#"><img src="./images/person_but_01.png" alt="개인정보"></a>
+            <div class="user">
+              <ul>
+                <li><a href="#">로그인</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      <a href="./index.html" class="logo"><img src="./images/logo_grain.png" alt="로고"></a>
+      <ul class="nav">
+        <li><a href="./index.html">MAINPAGE</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./index.html#contents0">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./index.html#best_item">BEST ITEM<b class="underbar_2"></b></a></li>
+              <li><a href="./index.html#contents4">GIFT SHOP<b class="underbar_3"></b></a></li>
+              <li><a href="./index.html#store">STORE<b class="underbar_4"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_aboutus.html">ABOUT US</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_aboutus.html">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_aboutus_bi.html">IDENTITY<b class="underbar_2"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_mmscent.html">MMSCENT</a></li>
+        <li><a href="./sub_product.html">PRODUCT</a>
+          <div class="sub">
+            <ul>
+              <li><a href="#handcream">핸드크림<b class="underbar_1"></b></a></li>
+              <li><a href="#handwash">핸드워시<b class="underbar_2"></b></a></li>
+              <li><a href="#perfume">향수<b class="underbar_3"></b></a></li>
+              <li><a href="#candle">인센스<b class="underbar_4"></b></a></li>
+              <li><a href="#candle">캔들<b class="underbar_5"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_event.html">EVENT</a></li>
+      </ul>
+      <!-- </div> -->
+    </div>
+  </header>
+  <!-- 탑,헤더 끝 -->
+
+
+  <!-- 컨텐츠 -->
+
+  <!-- <div id="product_banner">
+  <div class="product_banner_left">
+    <img src="./images/banner_fixed_img01.jpg" alt="제품페이지 배너">
+    <h1 data-aos="flip-up">merdi matin</h1>
+    <p data-aos="flip-up">Reset, Refresh for the Self</p>
+  </div>
+</div> -->
+
+
+  <section class="container" id="handcream">
+    <div class="container_inner" data-sticky-container>
+
+      <div class="product_b_left sticky" data-margin-top="50" data-sticky-class="is-sticky">
+        <img src="./images/banner_fixed_img01.jpg" alt="배너">
+      </div>
+      <div class="hide_back pro_back1">
+        <h1>GREEN</h1>
+      </div>
+      <div class="hide_back pro_back2">
+        <h1>WOODY</h1>
+      </div>
+      <div class="hide_back pro_back3">
+        <h1>FLORAL</h1>
+      </div>
+      <div class="hide_back pro_back4">
+        <h1>CITRUS</h1>
+      </div>
+      <div class="hide_back pro_back5">
+        <h1>MUSK</h1>
+      </div>
+      <div class="hide_back pro_back6">
+        <h1>POWDERY</h1>
+      </div>
+      <div class="sticky_text sticky sticky_text_white" data-margin-top="30" data-sticky-class="is-sticky">
+        <h1 class="sticky_h1 ">
+          HANDCREAM</h1>
+        <p class="sticky_p ">
+          Reset, Refresh for the Self</p>
+      </div>
+
+      <div class="product_b_right">
+        <div class="fil_icon">
+          <img src="./images/filter_icon.png" alt="필터아이콘">
+          <h1>필터</h1>
+        </div>
+        <div class="product_t_right">
+          <ul>
+            <li><a href="#none" class="li_all">제품모두보기</a></li>
+            <li><a href="#handcream">핸드크림</a></li>
+            <li><a href="#handwash">핸드워시</a></li>
+            <li><a href="#perfume">향수</a></li>
+            <li><a href="#none">인센스</a></li>
+            <li><a href="#candle">캔들</a></li>
+          </ul>
+          <ul>
+            <li><a href="#" class="li_green" id="li_green">Green</a></li>
+            <li><a href="#" class="li_woody" id="li_woody">Woody</a></li>
+            <li><a href="#" class="li_floral" id="li_floral">Floral </a></li>
+            <li><a href="#" class="li_citrus" id="li_citrus">Citrus</a></li>
+            <li><a href="#" class="li_musk" id="li_musk">Musk</a></li>
+            <li><a href="#" class="li_powdery" id="li_powdery">Powdery</a></li>
+          </ul>
+        </div>
+        <div class="product_preview">
+          <!-- ul 숨기기 -->
+          <ul>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_airydawn.png" alt="핸드크림_에어리던"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 에어리던<br>
+                    PERFUMED HAND CREAM airydawn<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_cloudsoap.png" alt="핸드크림_클라우드솝"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 클라우드솝<br>
+                    PERFUMED HAND CREAM cloudsoap<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_forestwalk.png" alt="핸드크림_포레스트워크"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 포레스트워크<br>
+                    PERFUMED HAND CREAM forestwalk<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_freesia.png" alt="핸드크림_프리지아"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 프리지아<br>
+                    PERFUMED HAND CREAM freesia<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_green-airy.png" alt="핸드크림_그린에어리"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 그린에어리<br>
+                    PERFUMED HAND CREAM greenairy<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="citrus">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_greenmadarin.png" alt="핸드크림_그린만다린"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 그린만다린<br>
+                    PERFUMED HAND CREAM greenmadarin<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_incense-wood.png" alt="핸드크림_인센스우드"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 인센스우드<br>
+                    PERFUMED HAND CREAM incense-wood<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_library.png" alt="핸드크림_라이브러리"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 라이브러리<br>
+                    PERFUMED HAND CREAM library<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_original-musk.png" alt="핸드크림_오리지널머스크"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 오리지널머스크<br>
+                    PERFUMED HAND CREAM original-musk<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_peony-musk.png" alt="핸드크림_피오니머스크"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 피오니 머스크<br>
+                    PERFUMED HAND CREAM peony-musk<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="./detail_handcream_airy-dawn.html"><img src="./images/p_p_h_tulip-water.png" alt="핸드크림_튤립워터"></a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>
+                    퍼퓸드핸드크림 튤립워터<br>
+                    PERFUMED HAND CREAM tulip-water<br>
+                    <br>
+                    150ML / 30ml
+                  </p>
+                </a>
+                <a href="./detail_handcream_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handcream_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+          </ul>
+          <!-- ul 숨기기 끝-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="container" id="handwash">
+    <div class="container_inner" data-sticky-container>
+      <div class="product_b_left sticky" data-margin-top="50" data-sticky-class="is-sticky">
+        <img src="./images/banner_fixed_img02.jpg" alt="배너">
+      </div>
+      <div class="sticky_text sticky sticky_text_white" data-margin-top="30" data-sticky-class="is-sticky">
+        <h1 class="sticky_h1 ">
+          HANDWASH</h1>
+        <p class="sticky_p ">
+          Reset, Refresh for the Self</p>
+      </div>
+      <div class="product_b_right">
+        <div class="product_t_right">
+          <ul>
+            <li><a href="#none">제품모두보기</a></li>
+            <li><a href="#handcream">핸드크림</a></li>
+            <li><a href="#handwash">핸드워시</a></li>
+            <li><a href="#perfume">향수</a></li>
+            <li><a href="#none">인센스</a></li>
+            <li><a href="#candle">캔들</a></li>
+          </ul>
+          <!-- <ul>
+            <li class="li_green"><a href="#">Green</a></li>
+            <li class="li_woody"><a href="#">Woody</a></li>
+            <li class="li_floral"><a href="#">Floral </a></li>
+            <li class="li_citrus"><a href="#">Citrus</a></li>
+            <li class="li_musk"><a href="#">Musk</a></li>
+            <li class="li_powdery"><a href="#">Powdery</a></li>
+          </ul> -->
+        </div>
+        <div class="product_preview">
+          <!-- ul 숨기기 -->
+          <ul>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_airydawn.png" alt="핸드솝_에어리던"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 에어리던<br>
+                    Aromatic perfume hand soap<br>
+                    airy dawn<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_cloudsoap.png" alt="핸드솝_클라우드솝"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 클라우드솝<br>
+                    Aromatic perfume hand soap <br>
+                    cloud soap<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_forestwalk.png" alt="핸드크림_포레스트워크"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 포레스트워크 <br>
+                    Aromatic perfume hand soap<br>
+                    forestwalk<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_freesia.png" alt="핸드솝_프리지아"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 프리지아<br>
+                    Aromatic perfume hand soap<br>
+                    freesia<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_greenairy.png" alt="핸드솝_그린에어리"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 그린에어리<br>
+                    Aromatic perfume hand soap<br>
+                    greenairy<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="citrus">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_green-madarin.png" alt="핸드솝_그린만다린"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 그린만다린<br>
+                    Aromatic perfume hand soap<br>
+                    greenmadarin<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_incense-wood.png" alt="핸드솝_인센스우드"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 에어리던<br>
+                    Aromatic perfume hand soap<br>
+                    incense wood<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_library.png" alt="핸드솝_라이브러리"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 라이브러리<br>
+                    Aromatic perfume hand soap<br>
+                    library<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_original-musk.png" alt="핸드솝_오리지널머스크"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 오리지널머스크<br>
+                    Aromatic perfume hand soap<br>
+                    original musk<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_peony-musk.png" alt="핸드솝_피오니머스크"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 피오니머스크<br>
+                    Aromatic perfume hand soap<br>
+                    peony musk<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="./detail_handwash_airy-dawn.html"><img src="./images/p_p_hs_tulip-water.png" alt="핸드솝_튤립워터"></a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>
+                    아로마틱퍼퓸핸드솝 튤립워터<br>
+                    Aromatic perfume hand soap<br>
+                    tulip water<br>
+                    300ML / 150ML
+                  </p>
+                </a>
+                <a href="./detail_handwash_airy-dawn.html">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="./detail_handwash_airy-dawn.html" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+          </ul>
+          <!-- ul 숨기기 끝-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="container" id="perfume">
+    <div class="container_inner" data-sticky-container>
+      <div class="product_b_left sticky" data-margin-top="50" data-sticky-class="is-sticky">
+
+        <img src="./images/banner_fixed_img03.jpg" alt="배너">
+      </div>
+      <div class="sticky_text sticky sticky_text_white" data-margin-top="30" data-sticky-class="is-sticky">
+        <h1 class="sticky_h1">
+          PREFUME</h1>
+        <p class="sticky_p">
+          우리는 향이 선사하는 새로운 경험을 통해,<br>
+          삶의 감각이 더욱 풍요로워질 것임을 믿고 있습니다.</p>
+      </div>
+      <div class="product_b_right">
+        <div class="product_t_right">
+          <ul>
+            <li><a href="#none">제품모두보기</a></li>
+            <li><a href="#handcream">핸드크림</a></li>
+            <li><a href="#handwash">핸드워시</a></li>
+            <li><a href="#perfume">향수</a></li>
+            <li><a href="#none">인센스</a></li>
+            <li><a href="#candle">캔들</a></li>
+          </ul>
+          <!-- <ul>
+            <li class="li_green"><a href="#">Green</a></li>
+            <li class="li_woody"><a href="#">Woody</a></li>
+            <li class="li_floral"><a href="#">Floral </a></li>
+            <li class="li_citrus"><a href="#">Citrus</a></li>
+            <li class="li_musk"><a href="#">Musk</a></li>
+            <li class="li_powdery"><a href="#">Powdery</a></li>
+          </ul> -->
+        </div>
+        <div class="product_preview">
+          <!-- ul 숨기기 -->
+          <ul>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_airydawn.png" alt="향수_에어리던"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 에어리던<br>
+                    REFILLABLE EAU DE PARFUM airydawn<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_cloudsoap.png" alt="향수_클라우드솝"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 클라우드솝<br>
+                    REFILLABLE EAU DE PARFUM cloudsoap<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_forestwalk.png" alt="향수_포레스트워크"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 포레스트워크<br>
+                    REFILLABLE EAU DE PARFUM forestwalk<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_freesia.png" alt="향수_프리지아"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 프리지아<br>
+                    REFILLABLE EAU DE PARFUM freesia<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_greenairy.png" alt="향수_그린에어리"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 그린에어리<br>
+                    REFILLABLE EAU DE PARFUM greenairy<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="citrus">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_greenmadarin.png" alt="향수_"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 그린만다린<br>
+                    REFILLABLE EAU DE PARFUM<br>
+                    greenmadarin<br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_incense-wood.png" alt="향수_인센스우드"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 인센스우드<br>
+                    REFILLABLE EAU DE PARFUM<br>
+                    incensewood<br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_library.png" alt="향수_라이브러리"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 라이브러리<br>
+                    REFILLABLE EAU DE PARFUM library<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_original-musk.png" alt="향수_오리지널머스크"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 오리지널머스크<br>
+                    REFILLABLE EAU DE PARFUM <br>
+                    originalmusk<br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_peony-musk.png" alt="향수_피오니머스크"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 피오니머스크<br>
+                    REFILLABLE EAU DE PARFUM peonymusk<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_p_tulip-water.png" alt="향수_튤립워터"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 튤립워터<br>
+                    REFILLABLE EAU DE PARFUM tulipwater<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+          </ul>
+          <!-- ul 숨기기 끝-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+
+  <section class="container" id="candle">
+    <div class="container_inner" data-sticky-container>
+      <div class="product_b_left sticky" data-margin-top="50" data-sticky-class="is-sticky">
+
+        <img src="./images/banner_fixed_img04.jpg" alt="배너">
+      </div>
+      <div class="sticky_text sticky sticky_text_white" data-margin-top="30" data-sticky-class="is-sticky">
+        <h1 class="sticky_h1">
+          CANDLE</h1>
+        <p class="sticky_p">
+          우리는 향이 선사하는 새로운 경험을 통해,<br>
+          삶의 감각이 더욱 풍요로워질 것임을 믿고 있습니다.</p>
+      </div>
+      <div class="product_b_right">
+        <div class="product_t_right">
+          <ul>
+            <li><a href="#none">제품모두보기</a></li>
+            <li><a href="#handcream">핸드크림</a></li>
+            <li><a href="#handwash">핸드워시</a></li>
+            <li><a href="#perfume">향수</a></li>
+            <li><a href="#none">인센스</a></li>
+            <li><a href="#candle">캔들</a></li>
+          </ul>
+          <!-- <ul>
+            <li class="li_green"><a href="#">Green</a></li>
+            <li class="li_woody"><a href="#">Woody</a></li>
+            <li class="li_floral"><a href="#">Floral </a></li>
+            <li class="li_citrus"><a href="#">Citrus</a></li>
+            <li class="li_musk"><a href="#">Musk</a></li>
+            <li class="li_powdery"><a href="#">Powdery</a></li>
+          </ul> -->
+        </div>
+        <div class="product_preview">
+          <!-- ul 숨기기 -->
+          <ul>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_airydawn.png" alt="향수_에어리던"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 에어리던<br>
+                    REFILLABLE EAU DE PARFUM airydawn<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#" class="buy_but">BUY</a>
+            </li>
+            <li class="powdery">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_cloudsoap.png" alt="향수_클라우드솝"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 클라우드솝<br>
+                    REFILLABLE EAU DE PARFUM cloudsoap<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_forestwalk.png" alt="향수_포레스트워크"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 포레스트워크<br>
+                    REFILLABLE EAU DE PARFUM forestwalk<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_freesia.png" alt="향수_프리지아"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 프리지아<br>
+                    REFILLABLE EAU DE PARFUM freesia<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="green">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_greenairy.png" alt="향수_그린에어리"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 그린에어리<br>
+                    REFILLABLE EAU DE PARFUM greenairy<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="citrus">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_greenmadarin.png" alt="향수_"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 그린만다린<br>
+                    REFILLABLE EAU DE PARFUM<br>
+                    greenmadarin<br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_incense-wood.png" alt="향수_인센스우드"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 인센스우드<br>
+                    REFILLABLE EAU DE PARFUM<br>
+                    incensewood<br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="woody">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_library.png" alt="향수_라이브러리"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 라이브러리<br>
+                    REFILLABLE EAU DE PARFUM library<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_original-musk.png" alt="향수_오리지널머스크"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 오리지널머스크<br>
+                    REFILLABLE EAU DE PARFUM <br>
+                    originalmusk<br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="musk">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_peony-musk.png" alt="향수_피오니머스크"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 피오니머스크<br>
+                    REFILLABLE EAU DE PARFUM peonymusk<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+            <li class="floral">
+              <div class="preview_img">
+                <a href="#none"><img src="./images/p_p_c_tulip-water.png" alt="향수_튤립워터"></a>
+                <a href="#none">
+                  <p>
+                    리필러블 오 드 퍼퓸 튤립워터<br>
+                    REFILLABLE EAU DE PARFUM tulipwater<br>
+                    <br>
+                    100ML / 30ml
+                  </p>
+                </a>
+                <a href="#none">
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <a href="#none" class="buy_but">BUY</a>
+              <div class="preview_back"></div>
+            </li>
+          </ul>
+          <!-- ul 숨기기 끝-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 컨텐츠 끝 -->
+
+
+  <!-- 푸터 -->
+  <footer>
+
+    <div class="footer_inner_center">
+      <div class="footer_inner_left">
+        <p>
+          주식회사 메르디 마틴 코리아<br>
+
+          대표이사 임지은<br>
+
+          통신판매업신고 2022-부산동래-930405
+        </p>
+      </div>
+      <a href="./index.html" class="footer_logo"><img src="./images/footer_logo.png" alt="logo"></a>
+      <br>
+      <a href="#" class="sns_but"><img src="./images/sns_facebook.png" alt="페이스북"></a>
+      <a href="#" class="sns_but"><img src="./images/sns_youtube.png" alt="유튜브"></a>
+      <a href="#" class="sns_but"><img src="./images/sns_instar.png" alt="인스타그램"></a>
+      <br>
+      <ul>
+        <li><a href="#none">MERDI MATIN</a>｜</li>
+
+        <li><a href="#none">이용약관</a>｜</li>
+
+        <li><a href="#none">개인정보 처리방침</a>｜</li>
+
+        <li><a href="#none">제휴문의</a></li>
+      </ul>
+      <div class="footer_inner_right">
+        <p>
+          사업자등록번호 010-90-28659<br>
+
+          개인정보취급관리자 임지은 JENEE0093@KAKAO.com<br>
+
+          주소 47759 부산광역시 동래구<br>
+
+          시실로 167번길 54-8 (명장동)
+        </p>
+      </div>
+    </div>
+
+
+  </footer>
+  <!-- 푸터 끝 -->
+
+  <!-- 탑버튼 -->
+  <a href="#" class="top_but"><img src="./images/top_but.png" alt="탑 버튼">맨 위로</a>
+  <!-- 탑버튼 -->
+
+  <!-- js -->
+  <script src="./script/sticky.js"></script>
+  <script>
+    var sticky = new Sticky('.sticky');
+  </script>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <script src="./script/gallery.js"></script><!--디자인에 맞게 수정-->
+  <script src="./script/mouse_line.js"></script>
+  <script src="./script/menu.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="./script/submenu.js"></script>
+  <script src="./script/filter.js"></script>
+</body>
+
+</html>

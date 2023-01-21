@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/favicon/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>ABOUT US</title>
+
+  <!-- 프리텐다드 폰트css -->
+  <link rel="stylesheet" href="./font/web/static/pretendard-subset.css">
+  <link rel="stylesheet" href="./font/web/static/pretendard.css">
+  <!-- font-css -->
+
+  <!-- js css -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- 갤러리 css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+  <link href="./css/gallery.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+  <link rel="stylesheet" href="./css/mouse_line.css">
+  <link href="./css/menu.css" rel="stylesheet" type="text/css"><!--css파일-->
+
+  <!-- 기본 CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="drawing_line">
+    <svg class="drawing_line_svg">
+      <circle class="drawing_line_circle" cx="0" cy="0" r="8"></circle>
+      <polyline class="drawing_line_polyline" points=""></polyline>
+    </svg>
+  </div>
+
+  <div id="top">
+    <a href="#">
+      <p>MERDI MATIN OPEN ! SPRING SEASON COUPON & GIFT</p>
+    </a>
+    <span onclick="this.parentElement.style.display='none'" class="close">ⓧ</span>
+  </div>
+
+
+  <header class="top-bar m_nav aboutus_header" data-sticky>
+    <!-- <div class="header_top"> -->
+    <div class="header_inner">
+      <ul class="header_right">
+        <li><a href="#"><img src="./images/language_but_01.png" alt="언어선택"></a>
+          <div class="language">
+            <ul>
+              <li><a href="#">한국어</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">日本語</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#"><img src="./images/store_but_01.png" alt="매장위치"></a></li>
+        <li><a href="#"><img src="./images/cart_but_01.png" alt="장바구니"></a></li>
+        <li><a href="#"><img src="./images/search_but_01.png" alt="검색하기"></a>
+          <div class="search">
+            <ul>
+              <li><input type="search" size="10" placeholder="&nbsp;&nbsp;검색어를 입력하세요"><a href="#"><img src="./images/search_but_01.png" alt="검색버튼"></a></li>
+            </ul>
+          </div></li>
+        <li><a href="#"><img src="./images/person_but_01.png" alt="개인정보"></a>
+          <div class="user">
+            <ul>
+              <li><a href="#">로그인</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <a href="./index.html" class="logo"><img src="./images/logo_grain.png" alt="로고"></a>
+      <ul class="nav">
+        <li><a href="./index.html">MAINPAGE</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./index.html#contents0">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./index.html#best_item">BEST ITEM<b class="underbar_2"></b></a></li>
+              <li><a href="./index.html#contents3">GIFT SHOP<b class="underbar_3"></b></a></li>
+              <li><a href="./index.html#contents4">STORE<b class="underbar_4"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_aboutus.html">ABOUT US</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_aboutus.html">ABOUT US<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_aboutus_bi.html">IDENTITY<b class="underbar_2"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_mmscent.html">MMSCENT</a></li>
+        <li><a href="./sub_product.html">PRODUCT</a>
+          <div class="sub">
+            <ul>
+              <li><a href="./sub_product.html#contents0">핸드크림<b class="underbar_1"></b></a></li>
+              <li><a href="./sub_product.html#best_item">핸드워시<b class="underbar_2"></b></a></li>
+              <li><a href="./sub_product.html#contents3">향수<b class="underbar_3"></b></a></li>
+              <li><a href="./sub_product.html#contents4">인센스<b class="underbar_4"></b></a></li>
+              <li><a href="./sub_product.html#contents4">캔들<b class="underbar_5"></b></a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="./sub_event.html">EVENT</a></li>
+      </ul>
+      <!-- </div> -->
+    </div>
+  </header>
+
+  <div id="aboutus_banner">
+    <!-- <div class="banner_text">
+      <p data-aos="flip-up">Reset, Refresh for the Self</p>
+      <h1 data-aos="flip-up">ABOUT MERDI MATIN</h1>
+      <img src="./images/header_background02.png" alt="Clean & vegan fragrance lifestyle brand" data-aos="fade-up"
+        data-aos-duration="3000">
+    </div> -->
+    <!-- <video src="./video/beach.mp4" autoplay loop muted width="1920"></video> -->
+
+    <div class="banner_text2" data-aos="fade-up" data-aos-duration="1000">
+      <h1>ABOUT US&nbsp;</h1>
+    </div>
+  </div>
+
+  <div class="marquee">
+    <div></div>
+  </div>
+
+  <div id="aboutus_con1">
+    <div class="con1_inner">
+      <div class="con1_top_left">
+        <img src="./images/aboutus_con01.jpg" alt="배너이미지">
+      </div>
+      <div class="con1_top_right">
+        <h3>Safe Ingredient<br>
+          Save the Plant</h3>
+        <p>
+          안전하고 건강한 아름다움을 표방합니다. 전<br>
+          제품은 합성 향료와 인체에 유해한 성분을<br>
+          배제한 비건 포뮬러 처방으로 생산됩니다.
+        </p>
+        <p>
+          100% PCR 플라스틱 용기등을 사용해 환경과<br>
+          사람에게 무해한 비건 제품을 지속적으로<br>
+          선보이고자 합니다.
+        </p>
+      </div>
+      <div class="con1_center">
+        <h3>Reset, Refresh<br>
+          for the Self</h3>
+        <p>
+          이 시대를 살아가는 '나'의 모습에 주목합니다. <br>
+          나의 취향과 가치관을 존중하는 태도, 새로운 변화의 흐름을 즐길 수 있는 자세. <br>
+          나만의 고유한 분위기, 지금의 감정을 압도하는 향기가 아니라, <br>
+          내가 머물고 있는 그대로의 삶의 지점에서 부드럽게 레이어드 되는 향의 기쁨을 선사합니다. <br>
+        </p>
+      </div>
+      <div class="con1_bottom">
+        <img src="./images/aboutus_con02.jpg" alt="배너이미지2">
+        <div class="con1_b_text">
+          <h3>TRUE REST, VEGAN LIFE</h3>
+          <p>
+            메르디마틴은 지속가능한 삶을 위한 능동자로서 비건<br> 라이프를 실천하고,그 안에서의 완벽한 쉼을 위한<br> 라이프스타일을 디자인합니다.
+          </p>
+        </div>
+      </div>
+      <div class="con1_back">
+      </div>
+      <a href="./sub_product.html">제품구매하기</a>
+    </div>
+  </div>
+
+  <div class="marquee">
+    <div></div>
+  </div>
+  <footer>
+
+    <div class="footer_inner_center">
+      <div class="footer_inner_left">
+        <p>
+          주식회사 메르디 마틴 코리아<br>
+
+          대표이사 임지은<br>
+
+          통신판매업신고 2022-부산동래-930405
+        </p>
+      </div>
+      <a href="./index.html" class="footer_logo"><img src="./images/footer_logo.png" alt="logo"></a>
+      <br>
+      <a href="#" class="sns_but"><img src="./images/sns_facebook.png" alt="페이스북"></a>
+      <a href="#" class="sns_but"><img src="./images/sns_youtube.png" alt="유튜브"></a>
+      <a href="#" class="sns_but"><img src="./images/sns_instar.png" alt="인스타그램"></a>
+      <h1></h1>
+      <ul>
+        <li><a href="#">MERDI MATIN</a>｜</li>
+
+        <li><a href="#">이용약관</a>｜</li>
+
+        <li><a href="#">개인정보 처리방침</a>｜</li>
+
+        <li><a href="#">제휴문의</a></li>
+      </ul>
+      <div class="footer_inner_right">
+        <p>
+          사업자등록번호 010-90-28659<br>
+
+          개인정보취급관리자 임지은 JENEE0093@KAKAO.COM<br>
+
+          주소 47759 부산광역시 동래구<br>
+
+          시실로 167번길 54-8 (명장동)
+        </p>
+      </div>
+    </div>
+
+
+  </footer>
+
+
+    
+  <!-- 탑버튼 -->
+  <a href="#" class="top_but"><img src="./images/top_but.png" alt="탑 버튼">맨 위로</a>
+  <!-- 탑버튼 -->
+
+
+  <!-- js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+  <script src="script/aos.js"></script><!-- aos 소스 -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+  <script src="./script/gallery.js"></script><!--디자인에 맞게 수정-->
+  <script src="script/mouse_line.js"></script>
+  <script src="./script/menu.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="./script/submenu.js"></script>
+</body>
+
+</html>
