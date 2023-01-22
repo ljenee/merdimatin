@@ -70,7 +70,14 @@ html {
 /* CAMILLA */
 @font-face {
     font-family: 'camilla';
-    src: url('../font/camilla-camilla-alt-regular-400.woff') format('truetype');
+    src: url('../font/camilla-alt-bold-700.woff') format('truetype');
+    src: url('../font/camilla-alt-italic-400.woff') format('truetype');
+    src: url('../font/camilla-alt-light-200.woff') format('truetype');
+    src: url('../font/camilla-alt-regular-400.woff') format('truetype');
+    src: url('../font/camilla-bold-700.woff') format('truetype');
+    src: url('../font/camilla-italic-400.woff') format('truetype');
+    src: url('../font/camilla-light-200.woff') format('truetype');
+    src: url('../font/camilla-regular-400.woff') format('truetype');
 }
 
 /* ENTRY SANS */
@@ -582,6 +589,7 @@ input::-webkit-search-cancel-button {
     width: 1100px;
     margin: 300px auto;
     font-family: 'camilla';
+    font-weight: 100;
     color: #fff;
     text-shadow: #4c383111 3px 3px 10px;
 }
@@ -625,7 +633,7 @@ input::-webkit-search-cancel-button {
 
 .contents0_inner h3 {
     padding: 20px 0;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 100;
     line-height: 100px;
     text-transform: none;
