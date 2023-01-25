@@ -2242,12 +2242,27 @@ body section:nth-child(4) {
     width: 1120px;
     margin: 250px auto;
     display: none;
+    text-align: center;
 }
 
 #membership img {
     width: 1120px;
 }
 
+#membership a {
+    display: inline-block;
+    padding: 20px 100px;
+    margin-top: 30px;
+    color: #745449;
+    border: 1px solid #745449;
+    transition: all 0.5s;
+}
+
+#membership a:hover{
+    background-color:#745449 ;
+    color: #fff;
+    border-radius: 50px;
+}
 /* event 끝 */
 
 /* 상세페이지 작업 시작*/
@@ -2342,10 +2357,10 @@ body section:nth-child(4) {
     width: 580px;
     height: 704px;
     background-color: #fff;
-    border-radius: 290px 290px 0 0;
+    border-radius: 290px 290px 20px 20px;
     position: sticky;
     top: 230px;
-    left: 963px;
+    left: 52%;
     padding: 90px;
     box-sizing: border-box;
     margin-bottom: 200px;
@@ -2595,9 +2610,31 @@ body section:nth-child(4) {
 }
 
 
-.detailpage {
+.detailpage,.delivery,.exchange,.ingredients {
     width: 1120px;
     margin: auto;
+
+}
+
+.ingredients h4,.delivery h4,.exchange h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: #745449 1px solid;
+    transition: all 0.5s;
+}
+
+.ingredients p,.delivery p,.exchange p{
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    
+}
+.delivery p:hover,.exchange p:hover,.delivery h4:hover,.exchange h4:hover,
+.ingredients h4:hover,.ingredients p:hover{
+    background-color: #745449;
+    color: #fff;
 }
 
 /* 상세페이지 작업 끝*/
