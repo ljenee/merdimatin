@@ -32,7 +32,9 @@ img {
 hr {
     color: #745449;
 }
-
+html{
+	animation: fadein 1.5s;
+}
 body {
     font-family: 'pretendard';
     font-size: 14px;
@@ -41,6 +43,12 @@ body {
     background-size: cover;
     line-height: 24px;
 
+}
+
+@keyframes fadein {
+	0% { opacity: 0; }
+    50% { opacity: 0; }
+	100% { opacity: 1; }
 }
 
 body::-webkit-scrollbar {
